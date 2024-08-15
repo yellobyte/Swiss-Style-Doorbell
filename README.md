@@ -3,7 +3,7 @@ A funny and extraordinary Swiss version of a normal doorbell. Utilizing an older
 
 ## :information_source: Description
 
-A while ago I got an Email from a then unknown client asking the innocent question how to control a simple 4-relais board. After digging deeper he eventually revealed his plan to build a rather unusual door-bell for his medium sized home which turned out to be located in a small and remote village (less than 100 inhabitants) in the french part of the Jura Mountains.  
+A while ago I got an Email from a then unknown client asking the innocent question how to control a simple 4-relais board. After digging deeper he eventually revealed his plan to build a rather unusual doorbell for his medium sized home which turned out to be located in a small and remote village (less than 100 inhabitants) in the french part of the Jura Mountains.  
 
 The Jura mainly demarcates a long stretch of the French–Swiss border, is not as high as the Swiss Alps (only 1720m max) and nevertheless absolutely ideal for memorable moto-bike tours. So my interest was rising and since he didn't have much experience in electronics I offered him the full package including design, building the circuit board, coding the MCU and subsequently deliverage, installation and of course extensive final testing at his home in person. He happily agreed and an absolut unique and in the end almost hilarious project got started.  
 
