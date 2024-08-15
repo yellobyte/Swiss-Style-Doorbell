@@ -12,6 +12,7 @@ Since I didn't have any clue as to the correct melody of a post bus horn he even
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Sound%20Analysis.jpg)
 
 Many Emails and Signal messenger sessions later all necessary informations (e.g. physical distance between bell button, circuit board, horns, the operating voltage of the valves, etc.) were gathered.  
+
 Creating a simple schematic was the next logical step. 
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Schematic.jpg) 
