@@ -15,9 +15,11 @@ Many Emails and Signal messenger sessions later all necessary informations (e.g.
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Schematic.jpg) 
 
-Based on the above schematic and an old plastic housing I found in a dark corner of my office the circuit board was put together with various components I had at hand. I only used a ProMicro board with ATmega32U4 MCU since I happened to had them lying around for a while without being assigned to any other project. I guess any other Arduino board would have done the job as well. Though using a board with USB-Port for serial output is a bonus for debugging.
+Based on the above schematic and an old plastic housing I found in a dark corner of my office the circuit board was put together with various components I had at hand. I only used a ProMicro board with ATmega32U4 MCU since I happened to have them lying around for a while without being assigned to any other project. I guess any other Arduino board would have done the job as well. Though using a board with USB-Port for serial output is a bonus for debugging.
 
-Only part to be ordered was the bi-directional voltage suppressor diode which is supposed to kill possible voltage spikes/transients coming in on the ~12m wire connecting the board with the bell button and acting like a big antenna. Likely sources for creating transients would be the air compressor at startup, high power devices in the house getting switched on/off or even lightning in the vicinity of the house. 
+Only part missing and to be ordered was the bi-directional voltage suppressor diode which is supposed to kill possible voltage spikes/transients coming in on the ~12m wire connecting the board with the bell button and acting like a big antenna. Likely sources for creating transients would be the air compressor at startup, high power devices in the house getting switched on/off or even lightning in the vicinity of the house. 
+
+The relais board had pin headers already soldered on and in such case I prefer to wire-wrap instead of using cheap Dupont cables simply for better and more stable connections.
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Circuit%20Board%20Top.jpg)  
 
