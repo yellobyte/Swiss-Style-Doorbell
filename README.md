@@ -33,7 +33,7 @@ When the software was done, somewhat tested and the weather forecast didn't issu
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Post%20Horn%20Tubes%20with%20Valves%20and%20Air%20Tube.jpg)  
 
-The 3-tone horn appeared to be still in good shap despite being worn and torn for probably many years on the roads. My client had already fixed the 3 horns on a piece of wood together with an air splitter, had attached 1 valve to each horn and even mounted an air tube running to an air compressor standing next to the whole ensemble. 
+The 3-tone horn appeared to be still in good shape despite being worn and torn for probably many years on the roads. My client had already fixed the 3 horns on a piece of wood together with an air splitter, had attached 1 valve to each horn and even mounted an air tube running to an air compressor standing next to the whole ensemble. 
 
 Naturally the 3 horns require a certain amount of air pressure from the attached compressor in order to work properly. After some testing on each single horn we figured out that a pressure of approx. 2.5 bar would be sufficient to do the job. However, our ears were almost blewn off since those horns make a hell of a noise.
 
@@ -41,7 +41,7 @@ Having connected all electrical wires between board and valves we were conductin
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Under%20Construction%202.jpg)  
 
-After sipping coffee, swapping cables, handing out earmuffs and playing with the timings for about 30 minutes finally everybody was happy. 
+After sipping coffee, swapping cables and handing out earmuffs we were finetuning the timings for about 30 minutes until finally everybody was happy. 
 Now the slightly rusty vintage bell button at the frontdoor got wired to the controller board and we were ready for the [moment of truth.](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Final%20Test%20with%20Bell%20Button%20connected.mp4)
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Bell%20Button.jpg)
@@ -54,7 +54,7 @@ After all the work done getting invited for coffee plus superb homemade Cantucci
 
 All coding was done with VSCode/PlatformIO. The programm and platformio.ini files are available in folder [**software**](https://github.com/yellobyte/Swiss-Style-Doorbell/tree/main/software).
 
-The code starts with some definitions for better understanding. The input lines IN1...IN4 on the relaisboard are active low, that means in order to activate a relais the assigned line must go low. Only 3 relais get used and ports A8, A9 and A10 will control them.
+The code starts with some definitions for better understanding. The input lines IN1...IN4 on the relaisboard are active low, meaning in order to activate a relais the assigned line must go low. Only 3 relais get used and ports A8, A9 and A10 will control them.
 
 When the bell button is pressed (actually pulled in our case) then the line on port A0 will go low and after releasing the button will go high again. However, after detecting a high->low transition the code waits another 50ms and then probes the line again just to make sure short spikes managing to get through the hardware filter are neglected.
 
