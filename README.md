@@ -25,7 +25,7 @@ When coding was done as well and the weather forecast didn't issue any warnings 
 
 The 3-tone horn to be controlled appeared to be still in good shap despite being worn and torn for probably many years on the roads. The proud owner had already fixed the 3 horns on a piece of wood, as well as an air splitter, 3 valves, one for each of the three horns  and even attached an air tube running to his compressor nearby. 
 
-After having all electrical wires connected and conducting a first test our ears almost were blewn off. That 3-horn device made a hell of a noise and the melody was somewhat strange too. Since we both lack a musical ear our better halves got asked and they finally uncovered the truth. By mistake we had the valves connected in wrong order. After having a coffee, fixing that detail, handing out earmuffs and playing with the timings finally everybody was happy. 
+After having connected all electrical wires between board and valves our ears almost were blewn off while conducting a first test. That 3-horn device made a hell of a noise and the melody was somewhat strange too. Since we both lack a musical ear our better halves got asked and they finally uncovered the truth. By mistake we had the valves connected in wrong order. After having a coffee, fixing that detail, handing out earmuffs and playing with the timings finally everybody was happy. 
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Under%20Construction%202.jpg)  
 
