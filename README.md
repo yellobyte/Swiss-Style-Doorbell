@@ -44,9 +44,9 @@ Now the slightly rusty vintage bell button at the frontdoor got wired to the con
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Bell%20Button.jpg)
 
-Well, the smallest horn responsible for producing the highest tone sounded somewhat hoarse but al in all the door bell was working and according to everybody's opinion will, when activated at night, not let anybody sleep who happens to have the incredibly bad luck to live nearby.
+Well, the smallest horn responsible for producing the highest tone sounded somewhat hoarse but all in all the doorbell was working and according to everybody's opinion will, when activated at night, not let anybody sleep who happens to have the incredibly bad luck to live nearby.
 
-After all work done getting invited for coffee plus superb self made Cantuccinis and then riding back home through Jura was definitely the icing on the cake. But it got better. The very next day the proud owner of the noisy doorbell got approached by a neighbour from fairly down the road and asked if he had seen the post busses driving past the other day. The guy reckoned he had missed every single bus that went past despite trying to get a glimpse of one. When my client told me the story we both were cracking up with laughter.
+After all the work done getting invited for coffee plus superb homemade Cantuccini's and then riding back home through Jura was definitely the icing on the cake. But it got better. The very next day the proud owner of the noisy doorbell got approached by a neighbour from fairly down the road and asked if he had seen the many post busses driving past the other day. The guy reckoned he had missed every single bus that went past despite trying to get a glimpse of one. When my client told me the story we both were cracking up with laughter.
 
 ## :mag: Software details
 
