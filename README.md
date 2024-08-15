@@ -33,20 +33,20 @@ When the software was done, somewhat tested and the weather forecast didn't issu
 
 The 3-tone horn appeared to be still in good shap despite being worn and torn for probably many years on the roads. My client had already fixed the 3 horns on a piece of wood together with an air splitter, had attached 1 valve to each horn and even mounted an air tube running to an air compressor standing next to the whole ensemble. 
 
-Naturally the 3 horns require a certain amount of air pressure from the attached compressor in order to work properly. After some testing we figured out that a pressure of approx. 2.5 bar would be sufficient to do the job.
+Naturally the 3 horns require a certain amount of air pressure from the attached compressor in order to work properly. After some testing on each single horn we figured out that a pressure of approx. 2.5 bar would be sufficient to do the job. However, our ears were almost blewn off since those horns make a hell of a noise.
 
-After having connected all electrical wires between board and valves our ears almost were blewn off while conducting the first test. That 3-horn device made a hell of a noise and the melody sounded somewhat strange too. Puzzled and obviously lacking musical ears a while later our better halves got asked and they immediately uncovered the truth. The valves had been connected in the wrong order by mistake. 
+Having connected all electrical wires between board and valves we were conducting the first real test with all three horns. Unexpectedly the melody sounded somewhat strange though. Puzzled and obviously lacking musical ears our better halves got asked a while later and of course they immediately uncovered the truth. Valves 1 and 2 had been connected in the wrong order by mistake. 
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Under%20Construction%202.jpg)  
 
-After sipping coffee, swapping cables, handing out earmuffs and playing with the timings for about 20 minutes finally everybody was happy. 
+After sipping coffee, swapping cables, handing out earmuffs and playing with the timings for about 30 minutes finally everybody was happy. 
 Now the slightly rusty vintage bell button at the frontdoor got wired to the controller board and we were ready for the [moment of truth.](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Final%20Test%20with%20Bell%20Button%20connected.mp4)
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Bell%20Button.jpg)
 
 Well, the smallest horn responsible for producing the highest tone sounded somewhat hoarse but all in all the doorbell was working and according to everybody's opinion will, when activated at night, not let anybody sleep who happens to have the incredibly bad luck to live nearby.
 
-After all the work done getting invited for coffee plus superb homemade Cantuccini's and then riding back home through Jura was definitely the icing on the cake. But it got better. The very next day the proud owner of the noisy doorbell got approached by a neighbour from fairly down the road and asked if he had seen the many post busses driving past the other day. The guy reckoned he had missed every single bus that went past despite trying to get a glimpse of one. When my client told me the story we both were cracking up with laughter.
+After all the work done getting invited for coffee plus superb homemade Cantuccini's and then riding back home through Jura was definitely the icing on the cake. But it got better. The very next day the proud owner of the noisy doorbell got approached by a neighbour from fairly down the road and asked if he had seen the many post busses driving past the other day. The guy reckoned he had missed every single bus that went past despite trying to get a glimpse of at least one. When my client told me the story we both were cracking up with laughter.
 
 ## :mag: Software details
 
