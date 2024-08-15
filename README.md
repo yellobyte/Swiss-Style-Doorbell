@@ -21,6 +21,10 @@ Only part missing and to be ordered was the bi-directional voltage suppressor di
 
 The relais board had pin headers already soldered on and in such case I prefer to wire-wrap instead of using cheap Dupont cables simply for better and more stable connections.
 
+Since the ProMicro board lacked a reset button I added one to the board together with a second one used to simulate an activated bell button.
+
+Uploading the software and debugging was done via the Micro-USB port on the ProMicro board being connected to my Laptop.
+
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Circuit%20Board%20Top.jpg)  
 
 When the software was done, somewhat tested and the weather forecast didn't issue any warnings for the week to come we fixed a date for installation. It took place a few days later on a sunny and dry Saturday. At arrival this sight in his garage was greeting me.
