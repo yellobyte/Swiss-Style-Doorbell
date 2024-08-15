@@ -33,7 +33,7 @@ When the software was done, somewhat tested and the weather forecast didn't issu
 
 The 3-tone horn appeared to be still in good shap despite being worn and torn for probably many years on the roads. My client had already fixed the 3 horns on a piece of wood together with an air splitter, had attached 1 valve to each horn and even mounted an air tube running to an air compressor standing next to the whole ensemble. 
 
-Naturally the 3 horns require a minimum amount of air pressure from the attached compressor in order to work properly, and after some testing a pressure of approx. 2.5 bar seemed to be sufficient for this job.
+Naturally the 3 horns require a minimum amount of air pressure from the attached compressor in order to work properly. After some testing we figured that a pressure of approx. 2.5 bar would be sufficient to do the job.
 
 After having connected all electrical wires between board and valves our ears almost were blewn off while conducting the first test. That 3-horn device made a hell of a noise and the melody sounded somewhat strange too. Puzzled and obviously lacking musical ears a while later our better halves got asked and they immediately uncovered the truth. By mistake the valves had been connected in the wrong order. 
 
