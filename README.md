@@ -15,7 +15,7 @@ Many Emails and Signal messenger sessions later all necessary informations (e.g.
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Schematic.jpg) 
 
-Based on the above schematic and an old plastic housing I found in a dark corner of my office the circuit board was put together with various components I had at hand. I only used a ProMicro board with ATmega32U4 MCU since I happened to have them lying around for a while without being assigned to any other project. I guess any other Arduino board would have done the job as well. Though using a board with USB-Port for serial output is a bonus for debugging.
+Based on the above schematic and an old plastic housing I found in a dark corner of my office the circuit board was put together with various components I had at hand. I simply used a ProMicro board with ATmega32U4 MCU since I had them lying around for a while without being assigned to a project. I guess any other Arduino board would have done the job as well. Though using a board with USB-Port for serial output is a bonus for debugging.
 
 Only part missing and to be ordered was the bi-directional voltage suppressor diode which is supposed to kill possible voltage spikes/transients coming in on the ~12m wire connecting the board with the bell button and acting like a big antenna. Likely sources for creating transients would be the air compressor at startup, high power devices in the house getting switched on/off or even lightning in the vicinity of the house. 
 
@@ -46,13 +46,13 @@ Now the slightly rusty vintage bell button at the frontdoor got wired to the con
 
 Well, the smallest horn responsible for producing the highest tone sounded somewhat hoarse but all in all the doorbell was working and according to everybody's opinion will, when activated at night, not let anybody sleep who happens to have the incredibly bad luck to live nearby.
 
-After all the work done getting invited for coffee plus superb homemade Cantuccini's and then riding back home through Jura was definitely the icing on the cake. But it got better. The very next day the proud owner of the noisy doorbell got approached by a neighbour from fairly down the road and asked if he had seen the many post busses driving past the other day. The guy reckoned he had missed every single bus that went past despite trying to get a glimpse of at least one. When my client told me the story we both were cracking up with laughter.
+After all the work done getting invited for coffee plus superb homemade Cantuccini's and then riding back home through Jura was definitely the icing on the cake. But it got better. The very next day the proud owner of the noisy doorbell got approached by a neighbour from fairly down the road and asked if he had seen the many post busses driving past the other day. The guy reckoned he had missed every single bus that went past despite trying to get a glimpse of one. When my client told me the story we both were cracking up with laughter.
 
 ## :mag: Software details
 
 All coding was done with VSCode/PlatformIO. The programm and platformio.ini files are available in folder [**software**](https://github.com/yellobyte/Swiss-Style-Doorbell/tree/main/software).
 
-The code starts with some definitions for better reading. The input lines IN1...IN4 on the relaisboard are active low, that means in order to activate a relais the assigned line must go low. Only 3 relais get used and ports A8, A9 and A10 will control them.
+The code starts with some definitions for better understanding. The input lines IN1...IN4 on the relaisboard are active low, that means in order to activate a relais the assigned line must go low. Only 3 relais get used and ports A8, A9 and A10 will control them.
 
 When the bell button is pressed (actually pulled in our case) then the line on port A0 will go low and after releasing the button will go high again. However, after detecting a high->low transition the code waits another 50ms and then probes the line again just to make sure short spikes managing to get through the hardware filter are neglected.
 
@@ -67,7 +67,7 @@ When the bell button is pressed (actually pulled in our case) then the line on p
 #define valveClosed HIGH
 ```
 
-The melody of the doorbell is coded as shown below. This array makes it possible to add/delete tones, change their timings or re-assign valves in no time.
+The melody of the doorbell is coded as shown below. The array makes it possible to add/delete tones, change their timings or re-assign valves in no time.
 
 ```c
 ...
@@ -126,7 +126,7 @@ void loop() {
 }
 ````
 
-Serial output has been coded as well and allows to easily debug the code or simply watch it running.
+Some serial output has been coded as well which allows for easier debugging or simply watching the code run.
 
 ## :relaxed: Postscript: 
 
