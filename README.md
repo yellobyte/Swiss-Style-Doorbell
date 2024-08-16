@@ -3,7 +3,7 @@ A funny and extraordinary Swiss version of a normal doorbell. Utilizing an older
 
 ## :information_source: Description
 
-A while ago I got an Email from a then unknown client asking the innocent question how to control a simple 4-relais board. After digging deeper he eventually revealed his plan to build a rather unusual doorbell for his medium sized home which turned out to be located in a small and remote village (less than 100 inhabitants) in the french part of the Jura Mountains.  
+A while ago I got an Email from a then unknown client asking the innocent question how to control a simple 4-relais board. After digging deeper he eventually revealed his plan to build a rather unusual doorbell for his medium sized home which turned out to be located in a small and remote village (less than 100 inhabitants) in the french speaking part of the Swiss Jura Mountains.  
 
 The Jura mainly demarcates a long stretch of the French–Swiss border, is not as high as the Swiss Alps (only 1720m max) and nevertheless absolutely ideal for memorable moto-bike tours. So my interest was rising and since he didn't have much experience in electronics I offered him the full package including design, building the circuit board, coding the MCU and subsequently deliverage, installation and of course extensive final testing at his home in person. He happily agreed and an absolut unique and in the end almost hilarious project got started.  
 
@@ -11,7 +11,7 @@ Since I didn't have any clue as to the correct melody of a post bus horn he even
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Sound%20Analysis.jpg)
 
-Many Emails and Signal messenger sessions later all necessary informations (e.g. physical distance between bell button, circuit board, horns, the operating voltage of the valves, etc.) were gathered.  
+Many discussions later all necessary informations (e.g. physical distance between bell button, circuit board, horns, the operating voltage/current of the valves, etc.) were gathered.  
 
 Creating a simple schematic was the next logical step. 
 
@@ -29,11 +29,11 @@ Uploading the software and debugging was done via the Micro-USB port on the ProM
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Circuit%20Board%20Top.jpg)  
 
-When the software was done, somewhat tested and the weather forecast didn't issue any warnings for the week to come we fixed a date for installation. It took place a few days later on a sunny and dry Saturday. We loaded Laptop, some tools and the produced device into the topcase and off we went. Some 2 hours and about 500 curves later we arrived at the clients home and this sight in his garage was greeting us.
+When the software was done, somewhat tested and the weather forecast didn't issue any warnings for the week to come we fixed a date for installation. It took place a few days later on a sunny and dry Saturday. Laptop, some tools and the produced device got loaded into the topcase and off we went. Almost 2 hours and about 500 curves later we arrived at the clients home and this sight in his garage was greeting us.
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Post%20Horn%20Tubes%20with%20Valves%20and%20Air%20Tube.jpg)  
 
-The 3-tone horn appeared to be still in good shape despite being worn and torn for probably many years on the roads. My client had already fixed the 3 horns on a piece of wood together with an air splitter, had attached 1 valve to each horn and even mounted an air tube running to an air compressor standing next to the whole ensemble. 
+The 3-tone horn appeared to be still in good shape despite being worn and torn for probably many years on the roads. My client had already fixed the 3 horns on a piece of wood together with an air splitter, had attached an air valve to each horn and even mounted an air tube running to an air compressor standing next to the whole ensemble. 
 
 Naturally the 3 horns require a certain amount of air pressure from the attached compressor in order to work properly. After some testing on each single horn we figured out that a pressure of approx. 2.5 bar would be sufficient to do the job. However, our ears were almost blewn off since those horns make a hell of a noise.
 
