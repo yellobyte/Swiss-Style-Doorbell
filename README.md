@@ -39,7 +39,7 @@ Naturally the 3 horns require a certain amount of air pressure from the attached
 
 Having connected all electrical wires between board and valves we were conducting the first real test with all three horns. Unexpectedly the melody sounded somewhat strange though. Puzzled and obviously lacking musical ears our better halves got asked a while later and of course they immediately uncovered the truth. Valves 1 and 2 had been connected in the wrong order by mistake. 
 
-![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Under%20Construction%202.jpg)  
+![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Changing%20tone%20settings.jpg)  
 
 After sipping coffee, swapping cables and handing out earmuffs we were finetuning the timings for about 30 minutes until finally everybody was happy. 
 Now the slightly rusty vintage bell button at the frontdoor got wired to the controller board and we were ready for the [moment of truth.](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Final%20Test%20with%20Bell%20Button%20connected.mp4)
