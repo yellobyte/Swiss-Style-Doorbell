@@ -29,7 +29,7 @@ Uploading the software and debugging was done via the Micro-USB port on the ProM
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Circuit%20Board%20Top.jpg)  
 
-When the software was done, thouroughly tested and the weather forecast didn't issue any warnings for the week to come we were keen on installation. It took place a few days later on a sunny and dry Saturday. Laptop, some tools and the produced device got loaded into the topcase and off we went. Almost 2 hours and about 500 curves later we arrived at the clients home and this sight in his garage was greeting us.
+When the software was done, thouroughly tested and the weather forecast didn't issue any warnings for the week to come we were keen on installation. It took place a few days later on a sunny and dry Saturday. Laptop, some tools and the produced device got loaded into the topcase and off we went. Almost 2 hours and perceived 500 curves later we arrived at the clients home and this sight in his garage was greeting us.
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Post%20Horn%20Tubes%20with%20Valves%20and%20Air%20Tube.jpg)  
 
