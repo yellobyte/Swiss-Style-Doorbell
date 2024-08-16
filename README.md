@@ -3,11 +3,11 @@ A funny and extraordinary Swiss version of a normal doorbell. Utilizing an older
 
 ## :information_source: Description
 
-A while ago I got an Email from a then unknown client asking the innocent question how to control a simple 4-relais board. After digging deeper he eventually revealed his plan to build a rather unusual doorbell for his medium sized home which turned out to be located in a small and remote village (less than 100 inhabitants) in the french speaking part of the Swiss Jura Mountains.  
+A while ago I got contacted by a then unknown client asking the innocent question how to control a simple 4-relais board. After digging deeper he eventually revealed his plan to build a rather unusual doorbell for his medium sized home which turned out to be located in a small and remote village (less than 100 inhabitants) in the french speaking part of the Swiss Jura Mountains.  
 
 The Jura mainly demarcates a long stretch of the French–Swiss border, is not as high as the Swiss Alps (only 1720m max) and nevertheless absolutely ideal for memorable moto-bike tours. So my interest was rising and since he didn't have much experience in electronics I offered him the full package including design, building the circuit board, coding the MCU and subsequently deliverage, installation and of course extensive final testing at his home in person. He happily agreed and an absolut unique and in the end almost hilarious project got started.  
 
-Since I didn't have any clue as to the correct melody of a post bus horn he eventually sent me a valuable mp3 sound sample. The file was imported into Audacity and analyzed as to the lenght of each tone and pauses. Below are the findings.
+I didn't have any clue as to the correct melody of a post bus horn and he eventually sent me a valuable mp3 sound sample. The file was imported into Audacity and analyzed as to the lenght of each tone and the pauses in between. Below are the findings.
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Sound%20Analysis.jpg)
 
@@ -17,38 +17,38 @@ Creating a simple schematic was the next logical step.
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Schematic.jpg) 
 
-Based on the above schematic and an old plastic housing I found in a dark corner of my office the circuit board was put together with various components I had at hand. I simply used a ProMicro board with ATmega32U4 MCU since I had them lying around for a while without being assigned to a project. I guess any other Arduino board would have done the job as well. Though using a board with USB-Port for serial output is a bonus for debugging.
+Based on the above schematic and an old plastic housing I found in a dark corner of my office the circuit board was put together with various components at hand. I used a ProMicro board with ATmega32U4 MCU since I had them lying around for a while without being assigned to a project. I guess any other Arduino board would have done the job as well. Though using a board with USB-Port for serial output is a bonus for debugging.
 
-Only part missing and to be ordered was the bi-directional voltage suppressor diode which is supposed to kill possible voltage spikes/transients coming in on the ~12m wire connecting the board with the bell button and acting like a big antenna. Likely sources for creating transients would be the air compressor at startup, high power devices in the house getting switched on/off or even lightning in the vicinity of the house. 
+Only part missing and to be ordered was the bi-directional 6.8V voltage suppressor diode which is supposed to kill possible voltage spikes/transients coming in on the ~12m wire connecting the board with the bell button and acting like a big antenna. Likely sources for creating transients would be the air compressor at startup, high power devices in the house getting switched on/off or even lightning in the vicinity of the house. 
 
-The relais board had pin headers already soldered on and in such case I prefer to wire-wrap instead of using cheap Dupont cables simply for better and more stable connections.
+The 4 relais board had pin headers already soldered on and in such case I prefer to wire-wrap instead of using cheap Dupont cables. This ensures more reliable and long lasting connections.
 
-Since the ProMicro board lacked a reset button I added one to the board together with a second one used to simulate an activated bell button.
+Since the ProMicro board lacked a reset button I added one to the controller board together with a second one for simulating an activated bell button.
 
 Uploading the software and debugging was done via the Micro-USB port on the ProMicro board being connected to my Laptop.
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Circuit%20Board%20Top.jpg)  
 
-When the software was done, somewhat tested and the weather forecast didn't issue any warnings for the week to come we fixed a date for installation. It took place a few days later on a sunny and dry Saturday. Laptop, some tools and the produced device got loaded into the topcase and off we went. Almost 2 hours and about 500 curves later we arrived at the clients home and this sight in his garage was greeting us.
+When the software was done, thouroughly tested and the weather forecast didn't issue any warnings for the week to come we were keen on installation. It took place a few days later on a sunny and dry Saturday. Laptop, some tools and the produced device got loaded into the topcase and off we went. Almost 2 hours and about 500 curves later we arrived at the clients home and this sight in his garage was greeting us.
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Post%20Horn%20Tubes%20with%20Valves%20and%20Air%20Tube.jpg)  
 
-The 3-tone horn appeared to be still in good shape despite being worn and torn for probably many years on the roads. My client had already fixed the 3 horns on a piece of wood together with an air splitter, had attached an air valve to each horn and even mounted an air tube running to an air compressor standing next to the whole ensemble. 
+The 3-tone horn appeared to be still in good shape despite being worn and torn for probably many years on the roads. My client had already fixed the 3 horns on a short wooden slat together with an air splitter, had attached an air valve to each horn and even mounted an air tube running to the air compressor standing next to the whole ensemble. 
 
-Naturally the 3 horns require a certain amount of air pressure from the attached compressor in order to work properly. After some testing on each single horn we figured out that a pressure of approx. 2.5 bar would be sufficient to do the job. However, our ears were almost blewn off since those horns make a hell of a noise.
+Naturally the 3 horns require a certain amount of air pressure from the attached compressor in order to work properly. After some testing on each single horn we figured out that a pressure of approx. 2.5 bar would be sufficient for the job. However, our ears were almost blewn off at the first run since those horns make a hell of a noise.
 
-Having connected all electrical wires between board and valves we were conducting the first real test with all three horns. Unexpectedly the melody sounded somewhat strange though. Puzzled and obviously lacking musical ears our better halves got asked a while later and of course they immediately uncovered the truth. Valves 1 and 2 had been connected in the wrong order by mistake. 
+Having connected all electrical wires between board and valves we were conducting the first real test with all three horns. Unexpectedly the melody sounded somewhat strange though. Puzzled and obviously lacking musical ears our better halves got asked a while later and of course they immediately uncovered the truth. Valves 1 and 2 had been connected in wrong order by mistake. 
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Changing%20tone%20settings.jpg)  
 
-After sipping coffee, swapping cables and handing out earmuffs we were finetuning the timings for about 30 minutes until finally everybody was happy. 
+After sipping coffee, swapping cables and handing out earmuffs we were finetuning the timings for another 30 minutes until finally everybody was happy. 
 Now the slightly rusty vintage bell button at the frontdoor got wired to the controller board and we were ready for the [moment of truth.](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Final%20Test%20with%20Bell%20Button%20connected.mp4)
 
 ![github](https://github.com/yellobyte/Swiss-Style-Doorbell/raw/main/doc/Bell%20Button.jpg)
 
-Well, the smallest horn responsible for producing the highest tone sounded somewhat hoarse but all in all the doorbell was working and according to everybody's opinion will, when activated at night, not let anybody sleep who happens to have the incredibly bad luck to live nearby.
+Well, the smallest horn responsible for producing the highest tone sounded somewhat hoarse but all in all the doorbell was working and according to everybody's opinion will, if activated at night, not let anybody sleep who happens to have the incredibly bad luck to live nearby.
 
-After all the work done getting invited for coffee plus superb homemade Cantuccini's and then riding back home through Jura was definitely the icing on the cake. But it got better. The very next day the proud owner of the noisy doorbell got approached by a neighbour from fairly down the road and asked if he had seen the many post busses driving past the other day. The guy reckoned he had missed every single bus that went past despite trying to get a glimpse of one. When my client told me the story we both were cracking up with laughter.
+After all the work done getting invited for coffee plus delicious homemade Cantuccinis and then riding back home through Jura was definitely the icing on the cake. But it got better. The very next day the proud owner of the noisy doorbell got approached by a neighbour from fairly down the road and asked if he had seen any post busses driving past the other day. The guy reckoned he had missed every single bus that went past despite trying to get a glimpse of one. When my client told me the story we both were cracking up with laughter.
 
 ## :mag: Software details
 
@@ -97,7 +97,7 @@ Vector<tone_t> melody(tone_array, sizeof(tone_array) / 4);
 ...
 ```
 
-The code configures Timer1 of the Atmega and uses an attached interrupt routine for letting the LEDs blink if needed. The internal watchdog gets set and activated as well.
+The code configures Timer1 of the Atmega and uses an attached interrupt routine to control the heartbeat LED at pin 17 on the ProMicro board. The internal watchdog gets set and activated as well.
 
 Funktion loop() checks the bell button getting pulled and if true will open/close the valves as defined above to generate the melody. 
 ```c
